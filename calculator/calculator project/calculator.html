@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculator</title>
+</head>
+<body id="body1">
+    
+    <div class="div1"><p class="paragraph1">CALCULATOR</p></div>
+    <div class="div2"></div>
+    <div class="div3"><br><br>
+    <form name="MyFormulary" action=" " method="post">
+        <center><p class="paragraph2">Value 1: <input type="text" name="vlw_1" class="input1"/><p></p></p>
+        <p class="paragraph2">Value 2: <input type="text" name="vlw_2" class="input2"/><p></p></p></center>
+        <center><input type="button" name="btn1" value="+" onclick="add()" class="button1" /><br>
+        <input type="button" name="btn2" value="-" onclick="subtract()" class="button1" /><br>
+        <input type="button" name="btn3" value="x" onclick="multiply()" class="button1" /><br>
+        <input type="button" name="btn4" value="/" onclick="divide()" class="button1" /><br>
+        <input type="reset" name="rst1" value="Delete" class="button2" /></center>        
+    </form>
+
+<script language="javascript">
+<!--
+
+    var sum_1;
+    var sum_2;
+    var sum_result;
+
+    var sub_1;
+    var sub_2;
+    var sub_result;
+
+    var mtp_1;
+    var mtp_2;
+    var mtp_result;
+
+    var dvd_1;
+    var dvd_2;
+    var dvd_result;
+
+    function add() {
+        sum_1 = parseInt(document.MyFormulary.vlw_1.value);
+        sum_2 = parseInt(document.MyFormulary.vlw_2.value);
+
+        sum_result = sum_1 + sum_2;
+
+        window.alert('Sum result = ' + sum_result.toString());
+    }
+
+    function subtract() {
+        sub_1 = parseInt(document.MyFormulary.vlw_1.value);
+        sub_2 = parseInt(document.MyFormulary.vlw_2.value);
+
+        sub_result = sub_1 - sub_2;
+
+        window.alert('Subtraction result = ' + sub_result.toString());
+    }
+
+
+    function multiply() {
+        mtp_1 = parseInt(document.MyFormulary.vlw_1.value);
+        mtp_2 = parseInt(document.MyFormulary.vlw_2.value);
+
+        mtp_result = mtp_1 * mtp_2;
+
+        window.alert('Multiplication result = ' + mtp_result.toString());
+    }
+
+    function divide() {
+        dvd_1 = parseInt(document.MyFormulary.vlw_1.value);
+        dvd_2 = parseInt(document.MyFormulary.vlw_2.value);
+
+        dvd_result = dvd_1 / dvd_2;
+
+        window.alert('Division result = ' + dvd_result.toString());
+    }
+
+//-->
+</script></div>
+<footer class="footer">Copyright by Valentin K.A.</footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+#body1 {
+    background-color: gray;
+    color: black;
+}
+
+.div1 {
+    background-color: rgb(87, 56, 56);
+    position: fixed;
+    height: 70px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.div2 {
+    background-color: rgb(216, 149, 149);
+    color: white;
+    text-align: center;
+    height: 20px;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+}
+
+.div3 {
+    background-color: rgb(126, 79, 79);
+    height: 100%;
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button1 {
+    background-color: rgb(87, 56, 56);
+    color: white;
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.button2 {
+    background-color: rgb(87, 56, 56);
+    color: white;
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.paragraph1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 24px;
+}
+
+.paragraph2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(87, 56, 56) ;
+    color: white;
+    height: 22px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.input1 {
+    width: 50px;
+}
+
+.input2 {
+    width: 50px;
+}
